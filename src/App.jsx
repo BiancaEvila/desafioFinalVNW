@@ -1,5 +1,5 @@
 import Header from "./components/header/Header"
-import "./components/GlobalStyle/globalStyle.scss"
+import "./components/globalStyle/globalStyle.scss"
 
 export default function App(){
   return(
