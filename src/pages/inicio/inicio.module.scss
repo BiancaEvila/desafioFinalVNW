@@ -1,0 +1,15 @@
+.primeiraSessaoInicio {
+    height: 75vh;
+    background-image: url("../../assets/main/bannerInicio.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    align-items: center;
+
+    h2 {
+        color: #fff;
+        font-size: 32px;
+        width: 30%;
+        padding-left: 7%;
+    }
+}
