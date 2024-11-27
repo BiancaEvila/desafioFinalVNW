@@ -10,7 +10,7 @@ export default function Footer() {
     return(
         <footer>
             <section className={s.contatosFooter}>
-                <p>40028922</p>
+                <p>0000-0000</p>
                 <nav>
                     <a href=""><img src={logoFacebook} alt="" /></a>
                     <a href=""><img src={logoTwitter} alt="" /></a>
@@ -19,7 +19,7 @@ export default function Footer() {
                     <a href=""><img src={logoInstagram} alt="" /></a>
                 </nav>
             </section>
-            <section>
+            <section className={s.copyRight}>
                 <p>Layout desenvolvido pela Vai Na Web para fins educativos - 2024</p>
             </section>
         </footer>

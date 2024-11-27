@@ -1,3 +1,24 @@
 .contatosFooter {
     background-color: #005695;
+    height: 15vh;
+    display: flex;
+    justify-content: space-between;
+    padding: 0 3%;
+    align-items: center;
+    color: #fff;
+
+    nav {
+        width: 15%;
+        display: flex;
+        justify-content: space-between;
+    }
+}
+
+.copyRight{
+    height: 6vh;
+    color: #fff;
+    background-color: #232020;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
