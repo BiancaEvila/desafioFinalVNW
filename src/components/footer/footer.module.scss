@@ -22,3 +22,22 @@
     justify-content: center;
     align-items: center;
 }
+
+@media (max-width: 780px) {
+    .contatosFooter {
+        flex-direction: column;
+        height: 10vh;
+
+        nav {
+            width: 60%;
+        }
+    }
+    .copyRight {
+        font-size: 12px;
+
+        p{
+            width: 60%;
+            text-align: center;
+        }
+    }
+}

@@ -50,3 +50,20 @@ input {
     padding: 0;
     cursor: pointer;
 }
+
+@media (max-width: 780px) {
+    .queroDoarSection {
+        height: 100vh;
+
+        p {
+            font-size: 18px;
+            text-align: center;
+            width: 70%;
+        }
+    }
+
+    form {
+        width: 90%;
+        font-size: 14px;
+    }
+}
