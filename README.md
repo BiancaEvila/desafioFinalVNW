@@ -1,4 +1,4 @@
-# 📚 Rede de Doação de Livros
+# 📚 Livros VNW
 
 Um site para promover a doação de livros, incentivando o acesso ao conhecimento. Desenvolvido com **React**, **HTML**, **CSS/SCSS** e **JavaScript**.
 
