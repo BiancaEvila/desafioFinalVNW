@@ -12,11 +12,11 @@ export default function Footer() {
             <section className={s.contatosFooter}>
                 <p>0000-0000</p>
                 <nav>
-                    <a href=""><img src={logoFacebook} alt="" /></a>
-                    <a href=""><img src={logoTwitter} alt="" /></a>
-                    <a href=""><img src={logoYoutube} alt="" /></a>
-                    <a href=""><img src={logoLinkedin} alt="" /></a>
-                    <a href=""><img src={logoInstagram} alt="" /></a>
+                    <a href=""><img src={logoFacebook} alt="Imagem da logo do facebook" /></a>
+                    <a href=""><img src={logoTwitter} alt="Imagem da logo do twitter" /></a>
+                    <a href=""><img src={logoYoutube} alt="Imagem da logo do youtube" /></a>
+                    <a href=""><img src={logoLinkedin} alt="Imagem da logo do linkedin" /></a>
+                    <a href=""><img src={logoInstagram} alt="Imagem da logo do instagram" /></a>
                 </nav>
             </section>
             <section className={s.copyRight}>
