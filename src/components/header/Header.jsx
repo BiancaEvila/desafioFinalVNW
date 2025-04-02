@@ -1,16 +1,12 @@
+import { Link } from 'react-router-dom'
 import logoLivro from '../../assets/header/logoLivro.png'
 import lupaHeader from '../../assets/header/lupaHeader.png'
-import {BrowserRouter, Routes, Route, Link} from 'react-router-dom'
-import Inicio from '../../pages/inicio/Inicio'
-import LivrosDoados from '../../pages/livrosDoados/LivrosDoados'
-import QueroDoar from '../../pages/queroDoar/QueroDoar'
 import s from './header.module.scss'
 
 
 export default function Header(){
     return(
-        <BrowserRouter>
-            <header>
+        <header>
             <section className={s.logoHeader}>
                 <img src={logoLivro} alt="Imagem de uma ilustração de um livro aberto de capa azul" />
                 <h1>Livros Vai na Web</h1>
@@ -29,11 +25,5 @@ export default function Header(){
                 </button>
             </section>
         </header>
-        <Routes>
-            <Route path='/' element={<Inicio/>}/>
-            <Route path='/livrosdoados' element={<LivrosDoados/>}/>
-            <Route path='/querodoar' element={<QueroDoar/>}/>
-        </Routes>
-        </BrowserRouter>
     )
 }
