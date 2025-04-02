@@ -1,5 +1,4 @@
 .livrosDoadosSection {
-    height: 70vh;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -7,12 +6,18 @@
 
     h2 {
         font-size: 32px;
+        height: 10vh;
+        display: flex;
+        align-items: center;
     }
 }
 
 .containerCards {
     width: 95%;
-    height: 60vh;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    margin-bottom: 2rem;
 
     section {
         border: solid 3px #005695;
@@ -23,6 +28,15 @@
         flex-direction: column;
         align-items: center;
         justify-content: space-evenly;
+        margin-top: 2rem;
+
+        h3 {
+            text-align: center;
+        }
+
+        img {
+            width: 8vw;
+        }
 
         div {
             text-align: center;
