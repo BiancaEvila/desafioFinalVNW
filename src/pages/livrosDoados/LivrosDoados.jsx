@@ -1,4 +1,3 @@
-import livroProtagonista from '../../assets/livrosDoados/livroProtagonista.png'
 import s from './livrosDoados.module.scss'
 import { useState, useEffect } from 'react'
 import axios from 'axios'
