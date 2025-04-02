@@ -30,7 +30,7 @@ export default function Header(){
             </section>
         </header>
         <Routes>
-            <Route path='/inicio' element={<Inicio/>}/>
+            <Route path='/' element={<Inicio/>}/>
             <Route path='/livrosdoados' element={<LivrosDoados/>}/>
             <Route path='/querodoar' element={<QueroDoar/>}/>
         </Routes>
